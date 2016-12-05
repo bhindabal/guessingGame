@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'clean';
+	src: url(../print.ttf);
+}
+body { 
+  background: url(http://orig15.deviantart.net/2010/f/2015/144/c/2/c21d91dcb11ee16729ec892d03f7b855-d8un0f2.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+#head, p {
+	text-align: center;
+	font-family: 'clean';
+	color: white;
+}
+
+#head {
+	font-size: 500%;
+	text-shadow: 2px 2px 5px blue;
+}
+
+p {
+	font-size: 200%
+}
+
+p>span {
+	color: red
+}
+#click:hover {
+	cursor: pointer;
+}
+
+#win, #lost {
+	display: none;
+	margin: 1% auto;
+	text-align: center;
+	width: 50%
+}
+
+#again {
+	display: none;
+	cursor: pointer;
+}
+
+.show {
+	display: all !important;
+}
+
+.hide {
+	display: none !important;
+}
